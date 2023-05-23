@@ -58,14 +58,18 @@
   }
   .navigation ul li{
     display: block;
+    margin: 0;
     margin-bottom: 5px;
   }
   .navigation ul li a {
     display: block;
-    padding: 10px 0;
+    padding: 10px 5px;
   }
   .navigation ul li a:hover {
     background-color: #192a56;
     color: #fff;
+  }
+  .d-block {
+    display: block;
   }
 }
